@@ -12,7 +12,7 @@ variables:
   Endpoint: DEV-SERVER # [require] 机器名称，指明容器部署到哪台服务器
   Network: bridge # [require] 容器网络，默认 bridge即可，如需配置其他请查看 Portainer 相应 Endpoint 具有哪些 Network
   Team: MarketPrediction # [require] Portainer群组名称，指出哪些群组具有该容器管理权限，多个配置项使用 ","隔开
-  Ports: 23394:3000 # [option] 可选端口映射，冒号前为宿主机端口，后者为容器内端口；需要多个端口映射时使用 ","隔开配置项，如 23380:8000,233
+  Ports: 23396:3000 # [option] 可选端口映射，冒号前为宿主机端口，后者为容器内端口；需要多个端口映射时使用 ","隔开配置项，如 23380:8000,233
 
 # build image job
 # 若删除 stages -> build 参数项则此处也需删除；构建镜像依赖项目根目录下存在 Dockerfile
