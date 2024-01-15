@@ -21,5 +21,5 @@ RUN npm run build
  
 EXPOSE 3000
  
-CMD ["npm", "run","docusaurus"]
+CMD ["npm", "run","start", "--host", "0.0.0.0"]
 
