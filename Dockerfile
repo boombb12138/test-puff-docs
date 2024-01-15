@@ -18,10 +18,8 @@ ENV CI=true
 
 
 RUN npm run build
-
-# Expose the port that the Next.js app will run on
+ 
 EXPOSE 3000
-
-# Start the Next.js application
-CMD ["npm", "start"]
+ 
+CMD ["npm", "run","docusaurus"]
 
