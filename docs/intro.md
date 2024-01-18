@@ -3,6 +3,7 @@ description: Create a doc page with rich content.
 tags:
   - Demo
   - Getting started
+slug: /
 ---
 
 # Hello from Docusaurus

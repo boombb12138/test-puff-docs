@@ -32,12 +32,14 @@
 
 body {
   background: linear-gradient(238deg, #180F2C 0%, #0C1525 69.38%);
+  color:#fff
 }
 
  
 
 #__docusaurus > nav  {
-  background-color: rgba(204, 180, 255, 0.08);
+  /* background-color: rgba(204, 180, 255, 0.08);  color:#fff */
+  background-color: #221f3a;  color:#fff
 }
 #__docusaurus > footer  {
   background-color: rgba(204, 180, 255, 0.12);
