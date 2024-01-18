@@ -18,36 +18,49 @@ const sidebars: SidebarsConfig = {
   
   tutorialSidebar: [
     'intro',
+    // 'How-to-create-your-wallet',
+    // {
+    //   type: 'category',
+    //   label: 'Tutorialextras',
+    //   items: ['tutorial-extras/translate-your-site'],
+    //   // link: {//点击category会跳转到一个没有侧边栏的 slug 对应的文章
+    //   //   type: 'generated-index',
+    //   //   title: 'Docusaurus Guides',
+    //   //   description: 'Learn about the most important Docusaurus concepts!',
+    //   //   slug: '/tutorial-basics/create-a-blog-post',
+    //   //   keywords: ['guides'],
+    //   //   // image: '/img/docusaurus.png',
+    //   // },
+    // },
+    // {
+    //   type: 'category',
+    //   label: 'Tutorialbasics',
+    //   items: ['tutorial-basics/create-a-document'],
+    //   description:
+    //   "Let's learn about the most important Docusaurus concepts!",
+    // },
     {
-      type: 'category',
-      label: 'Tutorialextras',
-      items: ['tutorial-extras/translate-your-site'],
-      // link: {//点击category会跳转到一个没有侧边栏的 slug 对应的文章
-      //   type: 'generated-index',
-      //   title: 'Docusaurus Guides',
-      //   description: 'Learn about the most important Docusaurus concepts!',
-      //   slug: '/tutorial-basics/create-a-blog-post',
-      //   keywords: ['guides'],
-      //   // image: '/img/docusaurus.png',
-      // },
-    },
-    {
-      type: 'category',
-      label: 'Tutorialbasics',
-      items: ['tutorial-basics/create-a-document'],
-      description:
-      "Let's learn about the most important Docusaurus concepts!",
+      type: 'doc',
+      id: 'How-to-create-your-wallet', // document ID
+      label: 'How to create your wallet', // sidebar label
     },
     {
       type: 'doc',
-      id: 'tutorial-extras/manage-docs-versions', // document ID
-      label: 'Getting started', // sidebar label
+      id: 'How-to-deposit-your-USDC-to-your-wallet', // document ID
+      label: 'How to deposit your USDC to your wallet', // sidebar label
     },
-    {
-      type: 'link',
-      label: 'Facebook', // The link label
-      href: 'https://facebook.com', // The external URL
-    },
+    'How to add your token in the Metamask',
+    'How to claim Polygon Mumbai Testnet gas on faucet',
+    'How to sign in or connect your wallet',
+    'How to make your first trade',
+    'How to add liquidity to a question',
+    'How to remove liquidity of a question',
+    'How to redeem your right choice',
+    // {
+    //   type: 'link',
+    //   label: 'Facebook', // The link label
+    //   href: 'https://facebook.com', // The external URL
+    // },
     // {//自定义侧边栏标签
     //   type: 'html',
     //   value: `<img src=`+{image} +`alt="favicon" />`, // The HTML to be rendered

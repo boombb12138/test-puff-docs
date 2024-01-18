@@ -1,29 +1,12 @@
 ---
 description: Create a doc page with rich content.
-tags:
-  - Demo
-  - Getting started
+# tags:
+#   - Demo
+#   - Getting started
 slug: /
 ---
 
-# Hello from Docusaurus
+# What is Puff Market
 
-Are you ready to create the documentation site for your open source project?
-
-## Headers
-
-will show up on the table of contents on the upper right
-
-So that your users will know what this page is all about without scrolling down or even without reading too much.
-
-## Only h2 and h3 will be in the TOC by default.
-
-You can configure the TOC heading levels either per-document or in the theme configuration.
-
-The headers are well-spaced so that the hierarchy is clear.
-
-- lists will help you
-- present the key points
-- that you want your users to remember
-  - and you may nest them
-    - multiple times
+Puff Market is the prediction marketplace, you can predict everything on our platfrom and trade them.
+Predict, Participate, Profit! Dive into the future of forecasting with our blockchain-based prediction market. Real-time, reliable, and ready for your insights on everything from sports to stocks. Your predictions, powered by blockchain!
